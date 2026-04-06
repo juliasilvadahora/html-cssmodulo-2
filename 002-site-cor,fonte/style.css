@@ -1,0 +1,51 @@
+@charset "UTF-8";
+/*
+ATENÇÃO  ( em HTML é "id"    = em CSS é "#" só pode usar 1 vez ATENÇÃO  )
+ATENÇÃO  ( em HTML é "class" = em CSS é "."    pode usar +1 vez ATENÇÃO )
+*/
+body{
+    background-color: #eff0f7;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1#principal{
+    text-align: center;
+    color: #d7d9f6;
+    background-color: #5a7de4;
+    font-family:  sans-serif;
+    border-radius: 500px; /* ponta redonda*/
+    box-shadow: 5px 5px 8px #201d6b96; /* cor da sombra*/
+    width: 700px; /*tamanho da letra de dentro do quadrado azul*/
+    padding: 5px; /*fino/grosso quadrado azul*/
+    margin: auto; /* posição da sombra*/
+
+}
+
+h1{
+    color: #3853a2;
+    font-family: serif;
+}
+
+h2{
+    color: #5088f7;
+    font-family: serif;
+}
+
+.basico{
+    color: #4737acce;
+}
+
+.intermediario{
+    color:#a5923cdc ;
+}
+
+.avancado{
+    color:#a03945c7 ;
+}
+
+.destaque{
+    background-color: #6173a9;
+    text-align:  justify;
+    color: #d7d9f6;
+}
